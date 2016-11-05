@@ -22,7 +22,7 @@ require(plyr)
 require(dplyr)
 require(data.table)
 ```
-print("running analysis")
+
 Read train and test set and merge them into one
 ```{r}
 subject_total <- rbind(read.table("train/subject_train.txt"), read.table("test/subject_test.txt"))
